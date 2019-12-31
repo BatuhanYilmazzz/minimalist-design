@@ -13,16 +13,19 @@
 
   &__list {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: space-around;
+    //  align-items: center;
+    flex-flow: row wrap;
     list-style: none;
-    height: 8rem;
-    width: 120rem;
+    //height: 8rem;
+    // width: 120rem;
     margin: auto;
     text-align: center;
+    max-width: 120rem;
   }
 
   &__item {
+    margin: 1rem 0;
     border-radius: 50px;
     padding: 1rem 3rem;
     font-size: 1.7rem;
@@ -39,9 +42,9 @@
 }
 
 .hero {
-  width: 80rem;
   margin: 0 auto;
-  text-align: left;
+  text-align: center;
+  width: 75rem;
 
   &__photo {
     max-width: 100%;
@@ -52,6 +55,7 @@
     margin-top: 2rem;
     border-bottom: 1px solid transparent;
     transition: border-color 0.5s ease-in;
+    text-align: left;
 
     &:hover {
       border-color: black;
@@ -63,5 +67,6 @@
     font-size: 2rem;
     margin-top: 1rem;
     color: grey;
+    text-align: left;
   }
 }

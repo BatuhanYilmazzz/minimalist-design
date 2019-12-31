@@ -1,128 +1,125 @@
 .btn {
-    width: 20rem;
-    height: 3.7rem;
-    padding: .4rem;
-    border-radius: 100px;
-    border: 1px solid #D6DBDF;
-    background-color: #fff;
-    color: $color-grey;
-    font-size: 1.5rem;
-    transition: all .4s;
-  margin:0 2rem;
-  
-    
-    &:hover {
-        border: 1px solid;
-        border-radius: 50px;
-        background-color: #000;
-        color: #fff;
-        cursor: pointer;
+  width: 20rem;
+  height: 3.7rem;
+  padding: 0.4rem;
+  border-radius: 100px;
+  border: 1px solid #d6dbdf;
+  background-color: #fff;
+  color: $color-grey;
+  font-size: 1.5rem;
+  transition: all 0.4s;
+  margin: 0 2rem;
 
+  &:hover {
+    border: 1px solid;
+    border-radius: 50px;
+    background-color: #000;
+    color: #fff;
+    cursor: pointer;
+  }
 
-    }
+  &-border {
+    border-top: 1px solid #d6dbdf;
+    border-bottom: 1px solid #d6dbdf;
+    text-align: center;
+    padding: 5rem 0;
+    margin-top: 3rem;
+  }
 
-    &-border {
-
-        border-top: 1px solid #D6DBDF;
-        border-bottom: 1px solid #D6DBDF;
-        text-align: center;
-        padding: 5rem 0;
-        margin-top: 3rem;
-
-    }
-
-    &-text {
-        margin-bottom: 2rem;
-        font-size: 2rem;
-    }
+  &-text {
+    margin-bottom: 2rem;
+    font-size: 2rem;
+  }
 }
 
 .subscribe {
-    padding: 5rem 0;
-    border-bottom: 1px solid #D6DBDF;
-    text-align: center;
+  padding: 5rem 0;
+  border-bottom: 1px solid #d6dbdf;
+  text-align: center;
 
-    &__btn {
-        width: 40rem;
-        height: 4rem;
-        padding: .5rem;
-        border-radius: 100px;
-        border: 1px solid #D6DBDF;
-        background-color: #fff;
-        color: $color-grey;
-        font-size: 1.5rem;
-        transition: all .4s;
-        transition: all .4s;
+  &__btn {
+    width: 40rem;
+    height: 4rem;
+    padding: 0.5rem;
+    border-radius: 100px;
+    border: 1px solid #d6dbdf;
+    background-color: #fff;
+    color: $color-grey;
+    font-size: 1.5rem;
+    transition: all 0.4s;
+    transition: all 0.4s;
 
-        &:hover {
-            border: 1px solid;
-            padding: 1rem;
-            border-radius: 50px;
-            background-color: #000;
-            color: #fff;
-            cursor: pointer;
-        }
+    &:hover {
+      border: 1px solid;
+      padding: 1rem;
+      border-radius: 50px;
+      background-color: #000;
+      color: #fff;
+      cursor: pointer;
     }
+  }
 }
 
 .brands {
-    padding: 3rem 0;
-    border-bottom: 1px solid #D6DBDF;
+  padding: 3rem 0;
+  border-bottom: 1px solid #d6dbdf;
 
-    &__list {
-        list-style: none;
-        display: flex;
-        justify-content: space-between;
-        text-align: center;
-    }
+  &__list {
+    list-style: none;
+    //  display: flex;
+    // justify-content: space-between;
 
-    &__text {
-        font-size: 1.1rem;
-        color: $color-grey;
-        margin-top: 1rem;
-    }
+    text-align: center;
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-rows: repeat(2, 100px);
+  }
+
+  &__text {
+    font-size: 1.1rem;
+    color: $color-grey;
+    margin-top: 1rem;
+  }
 }
 
 .contact {
-    display: flex;
-    justify-content: space-between;
-    text-align: center;
-    padding-top: 1rem;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  padding-top: 1rem;
 
-    &__left {
-
-
-        &__list {
-            display: flex;
-            justify-content: space-between;
-            text-align: center;
-            list-style: none;
-
-        }
-
-        &__item {
-            padding-left: .5rem;
-            font-size: 1.1rem;
-            color: $color-grey;
-            cursor: pointer;
-        }
+  &__left {
+    &__list {
+      display: flex;
+      justify-content: space-between;
+      text-align: center;
+      list-style: none;
     }
 
-    &__right {
-        list-style: none;
-
-        &__list {
-            display: flex;
-            justify-content: space-between;
-            text-align: center;
-            list-style: none;
-        }
-
-        &__item {
-            padding-left: .5rem;
-            font-size: 1.1rem;
-            color: $color-grey;
-            cursor: pointer;
-        }
+    &__item {
+      padding-left: 0.5rem;
+      font-size: 1.1rem;
+      color: $color-grey;
+      cursor: pointer;
     }
+  }
+
+  &__right {
+    list-style: none;
+
+    &__list {
+      display: flex;
+      justify-content: space-between;
+      text-align: center;
+      list-style: none;
+    }
+
+    &__item {
+      padding-left: 0.5rem;
+      font-size: 1.1rem;
+      color: $color-grey;
+      cursor: pointer;
+    }
+  }
 }
