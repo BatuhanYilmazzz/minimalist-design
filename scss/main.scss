@@ -1,0 +1,16 @@
+@import 'base';
+@import 'component';
+@import 'footer';
+@import 'header';
+
+.container {
+   max-width: 1400px;
+   padding: 0 1rem;
+  margin-top: 1rem;
+}
+
+.main {
+    
+    margin:0 auto;
+    margin-top: 6.5rem;
+}
