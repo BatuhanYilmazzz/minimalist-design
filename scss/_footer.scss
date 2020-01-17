@@ -8,7 +8,7 @@
   color: $color-grey;
   font-size: 1.5rem;
   transition: all 0.4s;
-  margin: 0 2rem;
+  margin: 0.5rem 2rem;
 
   &:hover {
     border: 1px solid;
@@ -49,6 +49,10 @@
     transition: all 0.4s;
     transition: all 0.4s;
 
+    @media screen and (max-width: 768px) {
+      width: 30rem;
+    }
+
     &:hover {
       border: 1px solid;
       padding: 1rem;
@@ -87,7 +91,11 @@
   display: flex;
   justify-content: space-between;
   text-align: center;
-  padding-top: 1rem;
+  padding: 1rem 0.5rem;
+  @media screen and (max-width: 400px) {
+    display: block;
+    text-align: center;
+  }
 
   &__left {
     &__list {
@@ -98,7 +106,6 @@
     }
 
     &__item {
-      padding-left: 0.5rem;
       font-size: 1.1rem;
       color: $color-grey;
       cursor: pointer;
@@ -116,7 +123,6 @@
     }
 
     &__item {
-      padding-left: 0.5rem;
       font-size: 1.1rem;
       color: $color-grey;
       cursor: pointer;

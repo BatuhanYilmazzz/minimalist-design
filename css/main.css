@@ -31,8 +31,21 @@ body {
   max-width: 1100px;
 }
 
+@media screen and (max-width: 768px) {
+  .card {
+    display: block;
+    text-align: center;
+  }
+}
+
 .card__left {
   padding: 0 0.5rem;
+}
+
+@media screen and (max-width: 768px) {
+  .card__left {
+    margin-bottom: 5rem;
+  }
 }
 
 .card__left__photo {
@@ -43,6 +56,13 @@ body {
   font-size: 2rem;
   margin-top: 2rem;
   color: #1a1a1a;
+}
+
+@media screen and (max-width: 768px) {
+  .card__left__header {
+    margin-top: 0.7rem;
+    font-size: 1.5rem;
+  }
 }
 
 .card__left__header :hover {
@@ -56,8 +76,20 @@ body {
   margin-top: 0.5rem;
 }
 
+@media screen and (max-width: 768px) {
+  .card__left__paragraph {
+    font-size: 1.5rem;
+  }
+}
+
 .card__right {
   padding: 0 0.5rem;
+}
+
+@media screen and (max-width: 768px) {
+  .card__right {
+    margin-bottom: 5rem;
+  }
 }
 
 .card__right__photo {
@@ -65,15 +97,28 @@ body {
 }
 
 .card__right__header {
-  font-size: 1.5rem;
+  font-size: 2rem;
   margin-top: 2rem;
   color: #1a1a1a;
 }
 
+@media screen and (max-width: 768px) {
+  .card__right__header {
+    margin-top: 0.7rem;
+    font-size: 1.5rem;
+  }
+}
+
 .card__right__paragraph {
-  font-size: 1.5rem;
+  font-size: 2rem;
   color: #808080;
   margin-top: 0.5rem;
+}
+
+@media screen and (max-width: 768px) {
+  .card__right__paragraph {
+    font-size: 1.5rem;
+  }
 }
 
 .mcard {
@@ -90,8 +135,21 @@ body {
   padding: 0 3rem;
 }
 
+@media screen and (max-width: 768px) {
+  .mcard {
+    display: block;
+    text-align: center;
+  }
+}
+
 .mcard__left {
   padding: 0 2rem;
+}
+
+@media screen and (max-width: 768px) {
+  .mcard__left {
+    margin-bottom: 5rem;
+  }
 }
 
 .mcard__left__photo {
@@ -99,19 +157,38 @@ body {
 }
 
 .mcard__left__header {
-  font-size: 1.5rem;
+  font-size: 2rem;
   margin-top: 2rem;
   color: #1a1a1a;
 }
 
+@media screen and (max-width: 768px) {
+  .mcard__left__header {
+    margin-top: 0.7rem;
+    font-size: 1.5rem;
+  }
+}
+
 .mcard__left__paragraph {
-  font-size: 1.5rem;
+  font-size: 2rem;
   color: #808080;
   margin-top: 0.5rem;
 }
 
+@media screen and (max-width: 768px) {
+  .mcard__left__paragraph {
+    font-size: 1.5rem;
+  }
+}
+
 .mcard__right {
   padding: 0 2rem;
+}
+
+@media screen and (max-width: 768px) {
+  .mcard__right {
+    margin-bottom: 5rem;
+  }
 }
 
 .mcard__right__photo {
@@ -119,34 +196,28 @@ body {
 }
 
 .mcard__right__header {
-  font-size: 1.5rem;
+  font-size: 2rem;
   margin-top: 2rem;
   color: #1a1a1a;
+}
+
+@media screen and (max-width: 768px) {
+  .mcard__right__header {
+    margin-top: 0.7rem;
+    font-size: 1.5rem;
+  }
 }
 
 .mcard__right__paragraph {
-  font-size: 1.5rem;
+  font-size: 2rem;
   color: #808080;
   margin-top: 0.5rem;
 }
 
-.scard {
-  width: 30rem;
-  margin: auto;
-}
-
-.scard__header {
-  font-size: 1.5rem;
-  margin-top: 2rem;
-  text-align: left;
-  color: #1a1a1a;
-}
-
-.scard__paragraph {
-  font-size: 1.5rem;
-  color: #808080;
-  text-align: left;
-  margin-top: 0.5rem;
+@media screen and (max-width: 768px) {
+  .mcard__right__paragraph {
+    font-size: 1.5rem;
+  }
 }
 
 .mwidecard {
@@ -162,8 +233,21 @@ body {
   max-width: 160rem;
 }
 
+@media screen and (max-width: 768px) {
+  .mwidecard {
+    display: block;
+    text-align: center;
+  }
+}
+
 .mwidecard__left {
   padding: 0 2rem;
+}
+
+@media screen and (max-width: 768px) {
+  .mwidecard__left {
+    margin-bottom: 5rem;
+  }
 }
 
 .mwidecard__left__photo {
@@ -171,15 +255,71 @@ body {
 }
 
 .mwidecard__left__header {
-  font-size: 1.5rem;
+  font-size: 2rem;
   margin-top: 2rem;
   color: #1a1a1a;
 }
 
+@media screen and (max-width: 768px) {
+  .mwidecard__left__header {
+    margin-top: 0.7rem;
+    font-size: 1.5rem;
+  }
+}
+
 .mwidecard__left__paragraph {
-  font-size: 1.5rem;
+  font-size: 2rem;
   color: #808080;
   margin-top: 0.5rem;
+}
+
+@media screen and (max-width: 768px) {
+  .mwidecard__left__paragraph {
+    font-size: 1.5rem;
+  }
+}
+
+.scard {
+  max-width: 35rem;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 768px) {
+  .scard {
+    display: block;
+    text-align: center;
+  }
+}
+
+.scard__photo {
+  max-width: 100%;
+}
+
+.scard__header {
+  font-size: 2rem;
+  margin-top: 2rem;
+  text-align: left;
+  color: #1a1a1a;
+}
+
+@media screen and (max-width: 768px) {
+  .scard__header {
+    margin-top: 0.7rem;
+    font-size: 1.5rem;
+  }
+}
+
+.scard__paragraph {
+  font-size: 2rem;
+  color: #808080;
+  text-align: left;
+  margin-top: 0.5rem;
+}
+
+@media screen and (max-width: 768px) {
+  .scard__paragraph {
+    font-size: 1.5rem;
+  }
 }
 
 .btn {
@@ -193,7 +333,7 @@ body {
   font-size: 1.5rem;
   -webkit-transition: all 0.4s;
   transition: all 0.4s;
-  margin: 0 2rem;
+  margin: 0.5rem 2rem;
 }
 
 .btn:hover {
@@ -237,6 +377,12 @@ body {
   transition: all 0.4s;
 }
 
+@media screen and (max-width: 768px) {
+  .subscribe__btn {
+    width: 30rem;
+  }
+}
+
 .subscribe__btn:hover {
   border: 1px solid;
   padding: 1rem;
@@ -277,7 +423,14 @@ body {
       -ms-flex-pack: justify;
           justify-content: space-between;
   text-align: center;
-  padding-top: 1rem;
+  padding: 1rem 0.5rem;
+}
+
+@media screen and (max-width: 400px) {
+  .contact {
+    display: block;
+    text-align: center;
+  }
 }
 
 .contact__left__list {
@@ -292,7 +445,6 @@ body {
 }
 
 .contact__left__item {
-  padding-left: 0.5rem;
   font-size: 1.1rem;
   color: #808080;
   cursor: pointer;
@@ -314,7 +466,6 @@ body {
 }
 
 .contact__right__item {
-  padding-left: 0.5rem;
   font-size: 1.1rem;
   color: #808080;
   cursor: pointer;
@@ -367,6 +518,13 @@ body {
   cursor: pointer;
 }
 
+@media screen and (max-width: 768px) {
+  .nav__item {
+    font-size: 1.2rem;
+    padding: 0.5rem 1.5rem;
+  }
+}
+
 .nav__item:hover {
   border-radius: 50px;
   background-color: #000;
@@ -376,7 +534,7 @@ body {
 .hero {
   margin: 0 auto;
   text-align: center;
-  width: 75rem;
+  max-width: 75rem;
 }
 
 .hero__photo {
@@ -392,6 +550,12 @@ body {
   text-align: left;
 }
 
+@media screen and (max-width: 768px) {
+  .hero__header {
+    font-size: 1.5rem;
+  }
+}
+
 .hero__header:hover {
   border-color: black;
   cursor: pointer;
@@ -402,6 +566,12 @@ body {
   margin-top: 1rem;
   color: grey;
   text-align: left;
+}
+
+@media screen and (max-width: 768px) {
+  .hero__paragraph {
+    font-size: 1.5rem;
+  }
 }
 
 .container {

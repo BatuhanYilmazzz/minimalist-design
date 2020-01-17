@@ -5,8 +5,16 @@
   margin: 10rem auto;
   padding: 0 3rem;
   max-width: 1100px;
+
+  @media screen and (max-width: 768px) {
+    display: block;
+    text-align: center;
+  }
   &__left {
     padding: 0 0.5rem;
+    @media screen and (max-width: 768px) {
+      margin-bottom: 5rem;
+    }
 
     &__photo {
       max-width: 100%;
@@ -15,6 +23,10 @@
       font-size: 2rem;
       margin-top: 2rem;
       color: $color-primary;
+      @media screen and (max-width: 768px) {
+        margin-top: 0.7rem;
+        font-size: 1.5rem;
+      }
 
       :hover {
         text-decoration: underline;
@@ -25,25 +37,38 @@
       font-size: 2rem;
       color: $color-grey;
       margin-top: 0.5rem;
+      @media screen and (max-width: 768px) {
+        font-size: 1.5rem;
+      }
     }
   }
 
   &__right {
     padding: 0 0.5rem;
+    @media screen and (max-width: 768px) {
+      margin-bottom: 5rem;
+    }
 
     &__photo {
       max-width: 100%;
     }
     &__header {
-      font-size: 1.5rem;
+      font-size: 2rem;
       margin-top: 2rem;
       color: $color-primary;
+      @media screen and (max-width: 768px) {
+        margin-top: 0.7rem;
+        font-size: 1.5rem;
+      }
     }
 
     &__paragraph {
-      font-size: 1.5rem;
+      font-size: 2rem;
       color: $color-grey;
       margin-top: 0.5rem;
+      @media screen and (max-width: 768px) {
+        font-size: 1.5rem;
+      }
     }
   }
 }
@@ -54,64 +79,69 @@
   align-items: center;
   margin: 10rem auto;
   padding: 0 3rem;
+  @media screen and (max-width: 768px) {
+    display: block;
+    text-align: center;
+  }
 
   &__left {
     padding: 0 2rem;
+    @media screen and (max-width: 768px) {
+      margin-bottom: 5rem;
+    }
 
     &__photo {
       max-width: 100%;
     }
 
     &__header {
-      font-size: 1.5rem;
+      font-size: 2rem;
       margin-top: 2rem;
       color: $color-primary;
+      @media screen and (max-width: 768px) {
+        margin-top: 0.7rem;
+        font-size: 1.5rem;
+      }
     }
 
     &__paragraph {
-      font-size: 1.5rem;
+      font-size: 2rem;
       color: $color-grey;
       margin-top: 0.5rem;
+      @media screen and (max-width: 768px) {
+        font-size: 1.5rem;
+      }
     }
   }
 
   &__right {
     padding: 0 2rem;
+    @media screen and (max-width: 768px) {
+      margin-bottom: 5rem;
+    }
 
     &__photo {
       max-width: 100%;
     }
 
     &__header {
-      font-size: 1.5rem;
+      font-size: 2rem;
       margin-top: 2rem;
       color: $color-primary;
+      @media screen and (max-width: 768px) {
+        margin-top: 0.7rem;
+        font-size: 1.5rem;
+      }
     }
 
     &__paragraph {
-      font-size: 1.5rem;
+      font-size: 2rem;
       color: $color-grey;
       margin-top: 0.5rem;
+      @media screen and (max-width: 768px) {
+        font-size: 1.5rem;
+      }
     }
-  }
-}
-
-.scard {
-  width: 30rem;
-  margin: auto;
-
-  &__header {
-    font-size: 1.5rem;
-    margin-top: 2rem;
-    text-align: left;
-    color: $color-primary;
-  }
-
-  &__paragraph {
-    font-size: 1.5rem;
-    color: $color-grey;
-    text-align: left;
-    margin-top: 0.5rem;
   }
 }
 
@@ -121,23 +151,70 @@
   align-items: center;
   margin: 10rem auto;
   max-width: 160rem;
+  @media screen and (max-width: 768px) {
+    display: block;
+    text-align: center;
+  }
   &__left {
     padding: 0 2rem;
+    @media screen and (max-width: 768px) {
+      margin-bottom: 5rem;
+    }
 
     &__photo {
       max-width: 100%;
     }
 
     &__header {
-      font-size: 1.5rem;
+      font-size: 2rem;
       margin-top: 2rem;
       color: $color-primary;
+      @media screen and (max-width: 768px) {
+        margin-top: 0.7rem;
+        font-size: 1.5rem;
+      }
     }
 
     &__paragraph {
-      font-size: 1.5rem;
+      font-size: 2rem;
       color: $color-grey;
       margin-top: 0.5rem;
+      @media screen and (max-width: 768px) {
+        font-size: 1.5rem;
+      }
+    }
+  }
+}
+.scard {
+  max-width: 35rem;
+  margin: 0 auto;
+  @media screen and (max-width: 768px) {
+    display: block;
+    text-align: center;
+  }
+
+  &__photo {
+    max-width: 100%;
+  }
+
+  &__header {
+    font-size: 2rem;
+    margin-top: 2rem;
+    text-align: left;
+    color: $color-primary;
+    @media screen and (max-width: 768px) {
+      margin-top: 0.7rem;
+      font-size: 1.5rem;
+    }
+  }
+
+  &__paragraph {
+    font-size: 2rem;
+    color: $color-grey;
+    text-align: left;
+    margin-top: 0.5rem;
+    @media screen and (max-width: 768px) {
+      font-size: 1.5rem;
     }
   }
 }
