@@ -77,7 +77,11 @@
     display: grid;
     grid-gap: 5px;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    grid-template-rows: repeat(2, 100px);
+    grid-template-rows: repeat(1, 100px);
+
+    &__item {
+      margin-top: 0.5rem;
+    }
   }
 
   &__text {
@@ -107,6 +111,7 @@
 
     &__item {
       font-size: 1.1rem;
+      margin-right: 0.5rem;
       color: $color-grey;
       cursor: pointer;
     }
@@ -126,6 +131,7 @@
       font-size: 1.1rem;
       color: $color-grey;
       cursor: pointer;
+      margin-right: 0.5rem;
     }
   }
 }

@@ -405,8 +405,12 @@ body {
   grid-gap: 5px;
   -ms-grid-columns: (minmax(300px, 1fr))[auto-fit];
       grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  -ms-grid-rows: (100px)[2];
-      grid-template-rows: repeat(2, 100px);
+  -ms-grid-rows: (100px)[1];
+      grid-template-rows: repeat(1, 100px);
+}
+
+.brands__list__item {
+  margin-top: 0.5rem;
 }
 
 .brands__text {
@@ -446,6 +450,7 @@ body {
 
 .contact__left__item {
   font-size: 1.1rem;
+  margin-right: 0.5rem;
   color: #808080;
   cursor: pointer;
 }
@@ -469,6 +474,7 @@ body {
   font-size: 1.1rem;
   color: #808080;
   cursor: pointer;
+  margin-right: 0.5rem;
 }
 
 .header-top {
