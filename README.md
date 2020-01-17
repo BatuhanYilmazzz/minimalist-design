@@ -16,7 +16,7 @@ This is one my portfolio project.
 $ https://github.com/BatuhanYilmazzz/MinimalistDesign.git
 ```
 
-or   https://batuhanyilmazzz.github.io/MinimalistDesign/
+or   https://batuhanyilmazzz.github.io/MinimalistDesign/ 
 
 ## Author
 
