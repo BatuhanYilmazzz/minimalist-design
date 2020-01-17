@@ -407,14 +407,20 @@ body {
       grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   -ms-grid-rows: (100px)[1];
       grid-template-rows: repeat(1, 100px);
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .brands__list__item {
-  margin-top: 0.5rem;
+  margin: 0.5rem auto;
 }
 
 .brands__text {
-  font-size: 1.1rem;
+  font-size: 1.2rem;
   color: #808080;
   margin-top: 1.1rem;
 }

@@ -70,22 +70,22 @@
 
   &__list {
     list-style: none;
-    //  display: flex;
-    // justify-content: space-between;
 
     text-align: center;
     display: grid;
     grid-gap: 5px;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     grid-template-rows: repeat(1, 100px);
+    align-items: center;
+    justify-content: center;
 
     &__item {
-      margin-top: 0.5rem;
+      margin: 0.5rem auto;
     }
   }
 
   &__text {
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     color: $color-grey;
     margin-top: 1.1rem;
   }
