@@ -46,8 +46,7 @@ Contributions, issues and feature requests are welcome!<br />Feel free to check 
 
 ## Future Ideas
 
-- Make the app show different images for day and night
-
+- 
 ## Show your support
 
 Give a ⭐️ if you like this project!
