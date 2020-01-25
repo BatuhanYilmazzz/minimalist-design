@@ -7,7 +7,7 @@
   <a href="https://github.com/BatuhanYilmazzz/MinimalistDesign/commit-activity" target="_blank">
     <img alt="Maintenance" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg" />
   </a>
-  <a href="https://twitter.com/batuhan38008916" target="_blank">
+  <a href="https://twitter.com/batuhan38008916" target="_blank" >
     <img alt="Twitter: BatuhanYilmaz" src="https://img.shields.io/twitter/follow/batuhan38008916.svg?style=social" />
   </a>
 </p>
