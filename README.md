@@ -27,7 +27,7 @@ The full project requirements can be found below.
 - Css3
 - Scss
 
-### ✨ [Live Demo](https://batuhanyilmazzz.github.io/MinimalistDesign/)
+### ✨ [Live Demo](https://batuhanyilmazzz.github.io/minimalist-design/)
 
 
 ## Author
@@ -38,7 +38,7 @@ The full project requirements can be found below.
 
 Contributions, issues and feature requests are welcome!<br />Feel free to check [issues page](https://github.com/BatuhanYilmazzz/NetflixReact/issues).
 
-1. Fork it (https://github.com/BatuhanYilmazzz/MinimalistDesign.git/fork)
+1. Fork it (https://github.com/BatuhanYilmazzz/minimalist-design.git/fork)
 2. Create your working branch (git checkout -b [choose-a-name])
 3. Commit your changes (git commit -am 'what this commit will fix/add/improve')
 4. Push to the branch (git push origin [chosen-name])
